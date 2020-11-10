@@ -1,0 +1,9 @@
+parameters:
+    ignoreErrors:
+        -
+            message: '#Variable property access#'
+            path: src/Entity/AbstractPresenter.php
+
+includes:
+	- vendor/wieni/wmcodestyle/phpstan/custom-rules.neon
+	- vendor/wieni/wmcodestyle/phpstan/drupal-module.neon
